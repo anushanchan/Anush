@@ -1,0 +1,70 @@
+<form action= "/submit-form" method = "post"target= "_blank">  
+    <fieldset>
+    <legend> Personal information</legend>
+
+    <label for = "name"> Fullname: </label>
+    <input type = "text" id=" name" placeholder = "Anush"><br><br>
+    <label for = "email"> Email Id: </label>
+    <input type = "email" id ="email" placeholder=" demo@gmail.com" required><br><br>
+    <label for=" password" >Password: </label>
+    <input type = "password" id="password" required><br><br>
+    <label for = "profile-picture"> Profile Picture: </label>
+    <input type = "file" id=" profile-picture" required><br><br>
+    <label for = "dob">Date of Birth</label> 
+    <input type = "date" class="dob" required><br><br>
+    <label for="phone "> Mobile Number</label>
+    <input type="number" class="phone" placeholder="9797975822" required>
+    <legend>Preferences</legend>
+
+    
+</fieldset>
+    
+    </form>
+    <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="color">Fav color</label>
+        <input type="color" id="color"><br><br>
+
+        <label for="fruit">
+            <select name="fruit" size="3" multiple>
+            
+            <option value="apple"> Apple</option>
+            <option value="mango">Mango</option>
+            <option value="banana">Banana</option><br>
+           
+           <br> <textarea id="comments" rows="3" cols="40" placeholder="Enter your comments"></textarea><br><br></select></label>
+
+           <label for="checkbox">
+            <input type="checkbox" value = "yes">
+            Subscribe to Newsletter
+           </label><br><br>
+           <label for = "gender">
+            <input type= "radio" name = "gender" value="male"> male
+
+           </label>
+           <label for="gender">
+
+<input type="radio" name ="gender" value="female">female
+           </label> 
+
+
+           </label>
+           <label for ="skills"> Skills</label>
+         <input type="text" id=" skills"  list = "skills-list" required>
+<datalist id = "skills-list">
+    <option value = "HTML">
+        <option value = "CSS">
+
+        </option>
+    </option>
+</datalist>
+        </select>
+    </fieldset>
+     
+    
+   
+
+       
+    <button type = "submit"> submit  </button>
+    <button type = "reload"> reload</button> 

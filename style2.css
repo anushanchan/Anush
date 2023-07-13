@@ -1,0 +1,10 @@
+button{
+    border-radius:20%;
+    border-color: black;
+    background-color: black;
+    color: aliceblue;
+}
+body{
+    background: url(/ram.jpg);
+    
+}
